@@ -87,7 +87,6 @@ namespace GlobalBankApi.Controllers
                 .OrderByDescending(t => t.DataTransacao)
                 .Select(t => new
                 {
-                    t.Id,
                     t.ContaId,
                     t.Tipo,
                     t.Valor,
